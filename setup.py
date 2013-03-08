@@ -11,7 +11,7 @@ setup(
     url='http://github.com/Suor/django-pickling',
     license='BSD',
 
-    py_modules=['django_pickling'],
+    py_modules=['pickling'],
     install_requires=['django'],
 
     classifiers=[

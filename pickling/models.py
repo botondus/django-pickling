@@ -1,7 +1,3 @@
-VERSION = (0, 1)
-__version__ = '.'.join(map(str, VERSION))
-
-
 from django.db.models import Model
 from itertools import izip
 
@@ -32,4 +28,3 @@ def Model__reduce__(self):
 if Model.__reduce__ != Model__reduce__:
     original_Model__reduce__ = Model.__reduce__
     Model.__reduce__ = Model__reduce__
-
